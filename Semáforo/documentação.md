@@ -14,8 +14,8 @@ Este projeto teve como objetivo desenvolver um semáforo funcional para controle
 
 | Componente | Quantidade | Especificação | Função |
 |------------|------------|---------------|--------|
-| LED Vermelho | 1 | 5mm, 2V, 20mA | Sinal de parada |
-| LED Azul | 1 | 5mm, 2V, 20mA | Sinal de atenção |
+| LED Azul | 1 | 5mm, 2V, 20mA | Sinal de parada |
+| LED Amarelo | 1 | 5mm, 2V, 20mA | Sinal de atenção |
 | LED Verde | 1 | 5mm, 2V, 20mA | Sinal de passagem |
 | Resistor | 3 | 220Ω, 1/4W | Limitação de corrente |
 | Protoboard | 1 | 830 pontos | Base de montagem |
@@ -26,11 +26,11 @@ Este projeto teve como objetivo desenvolver um semáforo funcional para controle
 
 **Conexões Realizadas:**
 
-1. **LED Vermelho:**
+1. **LED Azul:**
    - Anodo (perna longa) → Resistor 220Ω → Pino Digital 13 do Arduino
    - Catodo (perna curta) → GND
 
-2. **LED Azul:**
+2. **LED Amarelo:**
    - Anodo (perna longa) → Resistor 220Ω → Pino Digital 12 do Arduino
    - Catodo (perna curta) → GND
 
@@ -194,3 +194,4 @@ Nota:
 ### 5. Conclusão
 
 O projeto opera o semáforo corretamente seguindo a temporização especificada, a montagem física está organizada e segura, e a documentação completa permite a reprodução do projeto.
+
